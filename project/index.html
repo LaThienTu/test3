@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+        * {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+}
+table{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px 10px;
+    border-collapse: collapse;
+}
+th {
+    background-color: #000;
+    color: white;
+}
+th td {
+   padding: 10px;
+}
+tr td{
+    padding: 5px 20px;
+    background-color: #fff;
+    color: #000;
+    transition: 0.25s;
+
+}
+tr td:hover {
+    background-color: #555;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Local</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Nguyen Van A</td>
+                <td>Tanker</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nguyen Van B</td>
+                <td>Taker</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nguyen Van C</td>
+                <td>Cover</td>
+                <td>16</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

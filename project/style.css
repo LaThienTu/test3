@@ -1,0 +1,23 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+}
+table th td{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px 10px;
+    border-collapse: collapse;
+}
+th {
+    background-color: #000;
+    color: white;
+}
+th td {
+   padding: 10px;
+}
